@@ -1,0 +1,327 @@
+	
+	p	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		line-height: 1.75;
+		margin:0;
+		padding:0;	
+	}	
+
+	.container {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	header {
+		background-color: black;
+		color: #ffffff;
+		padding-top: 5px;
+		min-height: 50px;
+		border-bottom: #e0aa3e 3px solid;
+	}
+		
+	header a {
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+	
+	header li {
+		float: left;
+		display: inline;
+		padding: 0 20px 0 20px;
+		font-family: 'Montserrat', sans-serif;
+	}
+		
+	header #name {
+		float: left;
+	}
+	
+	header #name h1 {
+		margin: 0;
+		font-family: 'PT Serif Caption', serif;
+	}
+	
+	header nav { 
+		float: right;
+		margin-top: 10px;
+	}
+	
+	header .highlight, header .current a{
+		color: #ffdf00;
+		font-weight: bold;
+	}
+	
+	header a:hover {
+		font-weight: bold;
+	}
+	
+	#showcase {
+		max-width:100%;
+		height: auto;
+		display: block;
+		background: url('bgpic.png') no-repeat 50% 50%;
+		text-align: center;
+		color: #ffffff;
+	}
+	
+	
+	#showcase h1 {
+		margin-top: 1px;
+		font-size: 65px;
+		margin-bottom: 40px;
+		font-family: 'Lora', serif;
+	}
+	
+	#showcase h2 {
+		margin-top: 20px;
+		font-size: 50px;
+		margin-bottom: 1px;
+		font-family: 'East Sea Dokdo', cursive;
+	}
+	
+	#introduction h3 {
+		font-family: 'Bodoni Moda', serif;
+		text-align: center;
+		font-size: 55px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	
+	#introduction p {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		margin-top: 10px;
+		text-indent: 5%;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	
+	#pic1 img {
+		width: 65%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: block;
+	}
+	
+	#pic1 p {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 0px;
+		font-size: 12px;
+	}
+	
+	
+	#problem h4 {
+		font-family: 'Bodoni Moda', serif;
+		text-align: center;
+		font-size: 55px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	
+	#problem p {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		margin-top: 10px;
+		text-indent: 5%;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	
+	#problem a {
+		color: black;
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		display: block;
+	}		
+		
+	#newslol a {
+		color: black;
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 5px;
+		display: block;
+	}		
+		
+	#newslol img {
+		width: 65%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: block;
+	}
+	
+	#solution a {
+		color: black;
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		display: block;
+	}		
+
+	#solution h5 {
+		font-family: 'Bodoni Moda', serif;
+		text-align: center;
+		font-size: 55px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	
+	#solution p {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		margin-top: 10px;
+		text-indent: 5%;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+		
+	footer {
+		padding: 20px;
+		margin-top: 20px;
+		color: black;
+		background-color: #ffdf00;
+		text-align: center;
+	}
+	
+	#about h1 {
+		margin-top: 20px;
+		font-size: 50px;
+		margin-bottom: 40px;
+		font-family: 'Lora', serif;
+		text-align: center;
+	}
+	
+	#author {
+		width: 60%;
+		background: rgba(0, 0, 0, 0.75);
+		padding: 40px;
+		margin-bottom: 300px;
+		text-align: center;
+		margin: auto;
+		margin-top: 1%;
+		color: white;
+	}
+	
+	#author img {
+		border-radius: 50%;
+		width: 40%;
+		height: auto;
+	}
+		
+	#author h1 {
+		font-size: 40px;
+		font-weight: 100;
+		margin-top: 0px;
+		font-family: 'Montserrat', sans-serif;
+	}
+		
+	#author h2 {
+		font-size: 30px;
+		margin-bottom: 0px;
+		font-family: 'Montserrat', sans-serif;
+		font-family: 'PT Serif Caption', serif;
+	}
+	
+	#author h3 {
+		font-size: 20px;
+		margin: 20px;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	#socmed ul {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		width: 80%;
+		height: auto;
+		list-style-type: none;
+	}
+	
+	#socmed {
+		width: 100%;
+		display: inline-block;
+		margin: 10px;
+		text-align: center;
+	}
+	
+	#socmed img {
+		width: 50%;
+		height: 50%;
+		max-height: 150px;
+		max-width: 150px;
+	}
+	
+	#socmed li {
+		display: inline-block;
+		margin-top: 0;
+		padding: 30px;
+	}
+	
+	#socmed h1 {
+		font-size: 50px;
+		margin-bottom: 0;
+		
+	}
+
+	#download {
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	#download img {
+		width: 10%;
+		height: auto;
+		margin-top: 50px;
+		margin-left: 40%;
+		margin-right: 60%;
+		display: block;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+		border: 3px black solid;
+		margin-bottom: 50px
+	}
+	
+	
+	
+		
+		
